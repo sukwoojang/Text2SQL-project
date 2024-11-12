@@ -69,18 +69,9 @@ Training/원천데이터/seouldata_healthcare_db_annotation.json
 
 
 
-## Model
-```
-from transformers import BertTokenizer, BertModel
-from transformers import GPT2LMHeadModel
-
-tokenizer = AutoTokenizer.from_pretrained('skt/kogpt2-base-v2')
-model = GPT2LMHeadModel.from_pretrained('skt/kogpt2-base-v2')
-```
-
 
 ## RUN
 ```
-GPT2.ipynb
+T5.ipynb
 ```
 
