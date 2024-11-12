@@ -51,7 +51,7 @@
 |  |  |
 |-----------------|-----------------|
 | Python    |<img src="https://github.com/user-attachments/assets/28066dbb-c868-4c9c-8145-1bab47e1b7ed" alt="Python" width="100">| 
-| NLP    |   <img src="!https://github.com/user-attachments/assets/51f6f5be-f94e-4cb9-a6f2-b84616f73050" alt="NLP" width="100">|
+| NLP    |   <img src="!https://github.com/user-attachments/assets/98519118-803c-4342-b5a5-aa2557221b47" alt="NLP" width="100">|
 | Javascript    |  <img src="https://github.com/user-attachments/assets/4a7d7074-8c71-48b4-8652-7431477669d1" alt="Javascript" width="100"> | 
 
 <br/>
