@@ -13,7 +13,7 @@
 # 2. Team Members (팀원 및 팀 소개)
 | 김종은 | 장윤정 | 임승수 | 장석우 |
 |:------:|:------:|:------:|:------:|
-| <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="김종은" width="150"> | <img src="https://github.com/user-attachments/assets/78ec4937-81bb-4637-975d-631eb3c4601e" alt="장윤정" width="150"> | <img src="https://github.com/user-attachments/assets/78ce1062-80a0-4edb-bf6b-5efac9dd992e" alt="임승수" width="150"> | <img src= "https://github.com/user-attachments/assets/eed58eb5-9ed7-4c55-a9f2-de0ceb824fe4" alt="장석우" width="150"> |
+| <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="김종은" width="150"> | <img src="https://github.com/user-attachments/assets/78ec4937-81bb-4637-975d-631eb3c4601e" alt="장윤정" width="150"> | <img src="https://github.com/user-attachments/assets/78ce1062-80a0-4edb-bf6b-5efac9dd992e" alt="임승수" width="150"> | <img src= "https://github.com/user-attachments/assets/beea8c64-19de-4d91-955f-ed24b813a638" alt="장석우" width="150"> |
 | PL | AI Dev | AI Dev | AI Dev |
 | [GitHub](https://github.com/e8558) | [GitHub](https://github.com/YoonjungJang) | [GitHub](https://github.com/sslim92) | [GitHub](https://github.com/sukwoojang) |
 
