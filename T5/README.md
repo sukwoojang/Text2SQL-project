@@ -1,17 +1,16 @@
-# Text2SQL using KoGPT2
-KoGPT2를 활용하여 자연어 질의(한국어 질문)를 SQL 쿼리로 변환하는 Text2SQL 모델 구축
+# RAG and Text-To-SQL with T5
+RAG 기반 DB 검색 시스템 구축
+T5모델을 fine-tuning하여 자연어 질의(한국어) 입력을 SQL 구문으로 바꿔 주는 모델 개발 
 
 ## Dataset
 자연어 기반 질의(NL2SQL) 검색 생성 데이터 (AI HUB)
-
-- 본 코드에서는 Healthcare dataset만 사용하였음
 
 
 <img src="https://github.com/user-attachments/assets/d12b0810-80bb-46b8-bbbb-40431123d353" alt="이미지 설명" width="350" height="300">
 
 https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71351
 
-## Dataset 구성
+## Dataset 구성 예시
 Training/라벨링데이터/TEXT_NL2SQL_label_seouldata_healthcare.json
 ```
 "data": [
@@ -56,49 +55,18 @@ Training/원천데이터/seouldata_healthcare_db_annotation.json
 ]
 ```
 
+## 주요 전략 1 - RAG
+효과적인 DB linking을 위해 RAG 활용
+기존의 Sentence-transformer는 범용적인 텍스트 임베딩 모델을 Text-To-SQL task에 특화된 임베딩 모델로 fine-tuning
+양성샘플, 음성샘플을 활용한 대조학습 진행
+
+## 주요 전략 2 - 특수 토큰 추
+테이블을 구분하는 T토큰, 컬럼을 구분하는 C토큰을 추가함으로써 각 요소의 경계를 명확히 인식하고, 특정 부분에 집중하는 효과를 기대
+
 ## 주요 전략 - Customize Vocabulary
 단어 사전을 DB에 맞게 커스텀하여 SQL문 생성 성능을 높이고자 함
-1. **Query**: 쿼리 토큰 띄어쓰기 단위로 분할하여 SQL 쿼리 내의 주요 연산자와 키워드를 인식할 수 있도록 
-```
-query_tokens = row['query'].split()
-final_vocab.update([token.replace("'", "") for token in query_tokens])
-```
-2. **Column name**: column_names_original에서 컬럼 이름을 추출하여 단어사전에 추가하여 모델이 데이터베이스의 특정 컬럼 명을 이해하고, 질의 시 사용하도록 
-```
-column_names = [col[1] for col in row['column_names_original'] if isinstance(col[1], str)]
-final_vocab.update(column_names)
-```
-3. **Table name**: table_names_original에서 _를 기준으로 테이블 이름을 분할하여 단어사전에 추가
-```
-for table_name in row['table_names_original']:
-    final_vocab.update(table_name.split('_'))
-```
-4. **Question**: 한국어 질문을 서브워드 단위로 토크나이징하고, 토크나이저에 없는 서브워드만 단어사전에 추가
-```
-tokens = tokenizer.tokenize(row['utterance'])
-final_vocab.update([token for token in tokens if token not in tokenizer.vocab])
-```
-5. **SQL 키워드 및 특수 토큰**: 주요 SQL 키워드를 추가하여 모델이 다양한 SQL 쿼리 구성을 학습하도록 함
-```
-sql_keywords = [keyword.upper() for keyword in CLAUSE_KEYWORDS + JOIN_KEYWORDS + WHERE_OPS + UNIT_OPS + AGG_OPS]
-final_vocab.update([keyword for keyword in sql_keywords if keyword not in tokenizer.vocab])
+학습 데이터 기반으로 단어 빈도수 측정 후, 일정 이상의 단어들을 단어사전에 포함 시킴
 
-special_tokens = {
-    "pad_token": "<pad>",
-    "bos_token": "<sos>",
-    "eos_token": "<eos>",
-    "unk_token": "<unk>",
-    "sep_token": "<sep>"
-}
-```
-
-결과:
-
-기존 단어 수: 51204
-
-새로운 단어 수: 9003
-
-최종 토크나이저 길이: 60207
 
 
 ## Model
