@@ -47,31 +47,15 @@
 <br/>
 
 # 5. Technology Stack (기술 스택)
-## 5.1 Language
+
 |  |  |
 |-----------------|-----------------|
 | Python    |<img src="https://github.com/user-attachments/assets/28066dbb-c868-4c9c-8145-1bab47e1b7ed" alt="Python" width="100">| 
-| CSS3    |   <img src="https://github.com/user-attachments/assets/c531b03d-55a3-40bf-9195-9ff8c4688f13" alt="CSS3" width="100">|
+| NLP    |   <img src="!https://github.com/user-attachments/assets/51f6f5be-f94e-4cb9-a6f2-b84616f73050" alt="NLP" width="100">|
 | Javascript    |  <img src="https://github.com/user-attachments/assets/4a7d7074-8c71-48b4-8652-7431477669d1" alt="Javascript" width="100"> | 
 
 <br/>
 
-## 5.2 Frotend
-|  |  |  |
-|-----------------|-----------------|-----------------|
-| React    |  <img src="https://github.com/user-attachments/assets/e3b49dbb-981b-4804-acf9-012c854a2fd2" alt="React" width="100"> | 18.3.1    |
-| StyledComponents    |  <img src="https://github.com/user-attachments/assets/c9b26078-5d79-40cc-b120-69d9b3882786" alt="StyledComponents" width="100">| 6.1.12   |
-| MaterialUI    |  <img src="https://github.com/user-attachments/assets/75a46fa7-ebc0-4a9d-b648-c589f87c4b55" alt="MUI" width="100">    | 5.0.0  |
-| DayJs    |  <img src="https://github.com/user-attachments/assets/3632d7d6-8d43-4dd5-ba7a-501a2bc3a3e4" alt="DayJs" width="100">    | 1.11.12    |
-
-<br/>
-
-## 5.3 Backend
-|  |  |  |
-|-----------------|-----------------|-----------------|
-| Firebase    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
-
-<br/>
 
 ## 5.4 Cooperation
 |  |  |
