@@ -48,11 +48,12 @@
 
 # 5. Technology Stack (기술 스택)
 
+### Language & Skill
 |  |  |
 |-----------------|-----------------|
 | Python    |<img src="https://github.com/user-attachments/assets/28066dbb-c868-4c9c-8145-1bab47e1b7ed" alt="Python" width="100">| 
 | NLP    |   <img src="https://github.com/user-attachments/assets/5fdad6b1-a47f-4a43-ae6a-e3ee2bd6d714" alt="NLP" width="100">|
-| Javascript    |  <img src="https://github.com/user-attachments/assets/4a7d7074-8c71-48b4-8652-7431477669d1" alt="Javascript" width="100"> | 
+| PyTorch    |  <img src="https://github.com/user-attachments/assets/cbb5b984-bd1f-41e6-b122-e817bcf22273" alt="Pytorch" width="100"> | 
 
 <br/>
 
