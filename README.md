@@ -51,17 +51,17 @@
 |  |  |
 |-----------------|-----------------|
 | Python    |<img src="https://github.com/user-attachments/assets/28066dbb-c868-4c9c-8145-1bab47e1b7ed" alt="Python" width="100">| 
-| NLP    |   <img src="!https://github.com/user-attachments/assets/98519118-803c-4342-b5a5-aa2557221b47" alt="NLP" width="100">|
+| NLP    |   <img src="https://github.com/user-attachments/assets/5fdad6b1-a47f-4a43-ae6a-e3ee2bd6d714" alt="NLP" width="100">|
 | Javascript    |  <img src="https://github.com/user-attachments/assets/4a7d7074-8c71-48b4-8652-7431477669d1" alt="Javascript" width="100"> | 
 
 <br/>
 
 
-## 5.4 Cooperation
+### Cooperation
 |  |  |
 |-----------------|-----------------|
 | Git    |  <img src="https://github.com/user-attachments/assets/483abc38-ed4d-487c-b43a-3963b33430e6" alt="git" width="100">    |
-| Git Kraken    |  <img src="https://github.com/user-attachments/assets/32c615cb-7bc0-45cd-91ea-0d1450bfc8a9" alt="git kraken" width="100">    |
+| Discord    |  <img src= "https://github.com/user-attachments/assets/06139fa1-d490-4b13-bf53-01ea1f9d9fbe" alt="discord" width="100">    |
 | Notion    |  <img src="https://github.com/user-attachments/assets/34141eb9-deca-416a-a83f-ff9543cc2f9a" alt="Notion" width="100">    |
 
 <br/>
