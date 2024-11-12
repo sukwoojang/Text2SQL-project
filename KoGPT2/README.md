@@ -14,46 +14,46 @@ https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=da
 ## Dataset 구성
 Training/라벨링데이터/TEXT_NL2SQL_label_seouldata_healthcare.json
 ```
-	"data": [
-		{
-			"db_id": "seouldata_healthcare_455",
-			"utterance_id": "Whr_0001",
-			"hardness": "easy",
-			"utterance_type": "BR03",
-			"query": "SELECT ADMDNG_NM FROM SEOUL_PUBLIC_HYGIENE_BIZ WHERE UPSO_NM = '태창위생지'",
-			"utterance": "태창위생지의 행정동 이름이 뭐야",
-			"values": [
-				{
-					"token": "태창위생지",
-					"start": 0,
-					"column_index": 7
-				}
-			],
-			"cols": [
-				{
-					"token": "행정동 이름",
-					"start": 7,
-					"column_index": 12
-				}
-			]
-		}
+"data": [
+	{
+		"db_id": "seouldata_healthcare_455",
+		"utterance_id": "Whr_0001",
+		"hardness": "easy",
+		"utterance_type": "BR03",
+		"query": "SELECT ADMDNG_NM FROM SEOUL_PUBLIC_HYGIENE_BIZ WHERE UPSO_NM = '태창위생지'",
+		"utterance": "태창위생지의 행정동 이름이 뭐야",
+		"values": [
+			{
+				"token": "태창위생지",
+				"start": 0,
+				"column_index": 7
+			}
+		],
+		"cols": [
+			{
+				"token": "행정동 이름",
+				"start": 7,
+				"column_index": 12
+			}
+		]
+	}
 ```
 
 Training/원천데이터/seouldata_healthcare_db_annotation.json
 ```
-	"data": [
-		{
-			"source": "서울특별시",
-			"db_id": "seouldata_healthcare_455",
-			"table_names_original": "SEOUL_PUBLIC_HYGIENE_BIZ",
-			"table_names": "서울시 기타 위생용품 제조업 현황",
-			"column_names_original": "[0, "CGG_CODE], [0, SNT_COB_CODE], ... ",
-			"column_names": "[0, "시군구코드], [0, 업종코드], ... ",
-			"column_types": "[0, "number], [0, number], ... ",
-			"foreign_keys": [],
-			"primary_keys": [],
-				}
-      ]
+"data": [
+	{
+		"source": "서울특별시",
+		"db_id": "seouldata_healthcare_455",
+		"table_names_original": "SEOUL_PUBLIC_HYGIENE_BIZ",
+		"table_names": "서울시 기타 위생용품 제조업 현황",
+		"column_names_original": "[0, "CGG_CODE], [0, SNT_COB_CODE], ... ",
+		"column_names": "[0, "시군구코드], [0, 업종코드], ... ",
+		"column_types": "[0, "number], [0, number], ... ",
+		"foreign_keys": [],
+		"primary_keys": [],
+			}
+]
 ```
 
 ## 주요 전략 - Customize Vocabulary
