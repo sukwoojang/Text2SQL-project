@@ -13,7 +13,7 @@
 # 2. Team Members (팀원 및 팀 소개)
 | 김종은 | 장윤정 | 임승수 | 장석우 |
 |:------:|:------:|:------:|:------:|
-| <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="김종은" width="150"> | <img src="https://github.com/user-attachments/assets/78ec4937-81bb-4637-975d-631eb3c4601e" alt="장윤정" width="150"> | <img src="https://github.com/user-attachments/assets/b6134ff4-b85f-43a6-8e5e-33b10ca49bfe" alt="임승수" width="150"> | <img src= "https://github.com/user-attachments/assets/beea8c64-19de-4d91-955f-ed24b813a638" alt="장석우" width="150"> |
+| <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="김종은" width="150"> | <img src="https://github.com/user-attachments/assets/f3b1262f-ab0a-4c47-bdfe-bfca764fb286" alt="장윤정" width="150"> | <img src="https://github.com/user-attachments/assets/b6134ff4-b85f-43a6-8e5e-33b10ca49bfe" alt="임승수" width="150"> | <img src= "https://github.com/user-attachments/assets/beea8c64-19de-4d91-955f-ed24b813a638" alt="장석우" width="150"> |
 | PL | AI Dev | AI Dev | AI Dev |
 | [GitHub](https://github.com/e8558) | [GitHub](https://github.com/YoonjungJang) | [GitHub](https://github.com/sslim92) | [GitHub](https://github.com/sukwoojang) |
 
@@ -35,7 +35,7 @@
 |  |  |  |
 |-----------------|-----------------|-----------------|
 | 김종은    |  <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="김종은" width="100"> | <ul><li>프로젝트 계획 및 관리</li><li>팀 리딩 및 커뮤니케이션</li><li>Text-To-SQL 모델링</li></ul>     |
-| 장윤정   |  <img src="https://github.com/user-attachments/assets/78ec4937-81bb-4637-975d-631eb3c4601e" alt="장윤정" width="100">| <ul><li>관련 자료 아카이빙 및 관리</li><li>Text-To-SQL 모델링</li></ul> |
+| 장윤정   |  <img src="https://github.com/user-attachments/assets/f3b1262f-ab0a-4c47-bdfe-bfca764fb286" alt="장윤정" width="100">| <ul><li>관련 자료 아카이빙 및 관리</li><li>Text-To-SQL 모델링</li></ul> |
 | 임승수   |  <img src="https://github.com/user-attachments/assets/b6134ff4-b85f-43a6-8e5e-33b10ca49bfe" alt="임승수" width="100">    |<ul><li>RAG기반 DB검색 시스템 개발</li><li>Text-To-SQL 모델링</li></ul>  |
 | 장석우    |  <img src="https://github.com/user-attachments/assets/beea8c64-19de-4d91-955f-ed24b813a638" alt="장석우" width="100">    | <ul><li>RAG기반 DB검색 시스템 개발</li><li>Text-To-SQL 모델링</li></ul>    |
 
