@@ -66,7 +66,7 @@ Training/원천데이터/seouldata_healthcare_db_annotation.json
 <br>
 <br>
 
-## 주요 전략 2 - 특수 토큰 추
+## 주요 전략 2 - 특수 토큰 추가
 테이블을 구분하는 T토큰, 컬럼을 구분하는 C토큰을 추가함으로써 각 요소의 경계를 명확히 인식하고, 특정 부분에 집중하는 효과를 기대
 <br>
 <br>
